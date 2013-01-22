@@ -1,0 +1,462 @@
+﻿body {}
+.header { text-align: center;}
+.backbutton.ui-btn-left { position:absolute; top:44%; left:2.5%;}
+.menubutton.ui-btn-right { position:absolute; top:53%; right:2%; font-family: Verdana; font-size:24px; font-weight:normal;}
+.content { background-image:url(../images/backbg.png);  }
+.ui-select .ui-btn-text { font-size:28px; text-align: left;font-weight:normal;}
+ h2 { font-size:30px; color:#4BBDEC; font-family: Trebuchet MS;}
+ img { max-width:100%;}
+ .products img {-moz-box-shadow: 0 2px 5px #888;-webkit-box-shadow: 0 2px 5px #888;box-shadow: 0 2px 5px #888;}
+ .products a{ text-decoration: none !important;}
+.ui-navbar .ui-btn-text{ font-size:24px !important;font-weight:normal;}
+.ui-btn-active {background: linear-gradient(#4bbdec, #4bbdec) repeat scroll 0 0 #4bbdec;}
+ h3.treattext{ font-size:28px; font-family:Verdana; text-align:center;font-weight:normal;}
+ h3 { font-family: Trebuchet MS; font-size:28px; margin-bottom:10px; color:#9d9d9d;}
+ ul.products { list-style-type:none; margin:0 auto; padding: 0; display: block; overflow:hidden; position:relative;}
+ ul.products li { width:32.33%; float:left; position: relative; display:block; margin-right:1%;}
+  ul.products li:first-child { margin-right:1.25%;}
+ ul.products li:last-child { float:right; width:33%; margin-right:0;}
+ ul.products li a { position: relative; display:block; }
+.ui-navbar .ui-btn-inner { padding-left:3px !important; padding-right:3px !important;}
+.ui-footer .ui-btn-text { font-size:17px; text-align:center;}
+.ui-select .ui-icon { background: url(../images/rightarrow.png); background-repeat: no-repeat; top:30% !important; height:37px;}
+.textbg {height:24%; font-family:  Arial;font-weight:700; width:100%; text-decoration:none; max-width: 192px; max-height:62px;  background-color:#363636; position:absolute; bottom: 4px; font-size:16px; opacity:0.9; padding-top:2%; text-align: center; line-height: 120%; color:#fff; text-transform:uppercase; text-shadow:none;}
+.ui-select .ui-btn-corner-all { border-radius: 0.3em; -webkit-border-radius: 0.3em; -moz-border-radius: 0.3em; }
+.ui-footer .ui-block-b .ui-btn-inner { background-image:url(../images/recomendara.png); background-repeat: no-repeat; background-position:10% 50%;}
+.ui-footer .ui-block-c .ui-btn-inner { background-image:url(../images/facebook.png); background-repeat: no-repeat; background-position:25% 50%;}
+.ui-footer .ui-btn {margin:11px 5px !important;}
+
+/*View2.html*/
+.viewcontent{/* max-width:610px;*/ margin:0  auto;}
+.leftblock{padding-left:62px; width:37% !important;}
+.rightblock { padding-left:30px;width:63% !important; padding-right:16px; }
+.rightblock p{font-size:24px; line-height:30px; margin-top:-25px;}
+.rightblock h2{line-height: 38px;margin-top: 42px;}
+h2.price{ line-height: 11px; margin-bottom: 24px;margin-top: 0;}
+.rightblock label{font-size:28px;}
+.whitebg{background-color:#fff; margin-top:35px;}
+.rightblock .ui-btn-up-c{/*background:none;*/ border:none;margin-bottom: 0;margin-top: 0; margin-left:-5px; height:35px;}
+.rightblock .ui-btn:hover{/*background:none;*/ border:none;margin-bottom: 0; margin-left:-12px;    margin-top: 0;height:35px;}
+.rightblock .ui-btn{   margin-bottom: 10px !important;margin-right: 0 !important; margin-top: 0 !important; margin-left:-12px;/*linear-gradient(#FFFFFF, #FFFFFF) repeat scroll 0 0 #FFFFFF;*/}
+.rightblock .ui-btn-inner{padding-bottom: 0;padding-top: 0;}
+.rightblock .submitblock{margin-top:46px;}
+.submitbtn .ui-btn-inner{padding:8px 0 0 9px !important; border-radius: 0 0 0 0; }
+.rightblock .ui-btn-text{font-size:28px; font-weight:normal;}
+.submitbtn{height: 50px;margin-left: 0 !important;width: 100%;  background:#4BBDEC; border:none; border-radius: 6px 6px 6px 6px !important;  box-shadow:none;}
+.submitbtn:hover{background:#4BBDEC !important; border:none; border-radius: 6px 6px 6px 6px !important;  box-shadow:none;height: 50px !important;}
+.submitbtn .ui-btn-text{font-size:28px;}
+.ui-icon-searchfield:after{background:url("../images/icons-18-white.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0.4);}
+.logoblocks{background-color:#fff; padding-top:27px; padding-left:15px; padding-right:15px;}
+.leftlogoblk{width:40% !important;}
+.rightlogoblk{width:40% !important; margin-left:12px;}
+.lastlogoblk{width:18% !important;}
+.rightblock .ui-icon-checkbox-off{ background-color:#999;}
+.rightblock .ui-checkbox input{left:7px;}
+
+/* View2.html Ends here*/
+
+/*View3.html*/
+
+.topnav{padding-left:23px; padding-right:22px; padding-top:30px;}
+.topnav .ui-btn-text{ font-size:18px !important;}
+.viewcontent3{ margin:0  auto;background:url("../images/backbg.png");padding-left: 16px;padding-right: 14px;}
+.productblock{padding-left:22px; padding-right:21px; padding-top:42px;}
+.contentblock{padding-left:30px; padding-right:21px;}
+.contentblock h2{padding-top:14px; margin-bottom:12px;}
+.contentblock p{font-size:28px; font-family: verdana; line-height:35px; color:#444444;  margin-bottom: 6px; margin-top:0;}
+span.highlighttxt{color:#4bbdec;}
+.inputinfo label{font-size:28px;}
+.inputinfo input.ui-input-text{ background-color: #DDDDDD;border: 1px solid #CCCCCC;border-radius: 6px 6px 6px 6px;font-family: Verdana;font-size: 28px; height: 50px;margin-bottom: 25px; box-shadow:none; color:#444444;}
+.inputinfo .ui-btn-text{font-size:28px; font-weight:normal; font-family:Verdana; color:#444444;}
+.progressblock .ui-btn-text{font-size:28px; font-weight:normal; font-family:Verdana; color:#fff;}
+.productimg{width:26.5% !important; padding-left:6px;}
+.productinfo{width:72.5% !important; }
+.productimg img{ box-shadow:0 2px 5px #888888;}
+.productinfo p{font-size:28px; font-weight:normal; font-family:Verdana;color:#444444; margin-bottom:0; margin-top:0; }
+.progressbtn .ui-btn-inner{padding:8px 0 0 9px !important; border-radius: 0 0 0 0; }
+.progressbtn{height: 50px;margin-left: 0 !important;width: 100%;  background:#4BBDEC; border:none; border-radius: 6px 6px 6px 6px !important;  box-shadow:none;}
+.progressbtn:hover{background:#4BBDEC !important; border:none; border-radius: 6px 6px 6px 6px !important;  box-shadow:none;height: 50px !important;}
+.progressbtn .ui-btn-text{font-size:28px;}
+.inputinfo .ui-icon-checkbox-off{background-color: #999999;}
+/*Ends here*/
+
+/*View4.html*/
+.view4problock{padding-left:22px; padding-right:21px; padding-top:42px;}
+.view4proimg{width:26.5% !important; padding-left:6px;}
+.view4proinfo{width:72.5% !important; }
+.view4proimg img{ box-shadow:0 2px 5px #888888;}
+.view5video img{box-shadow:0 2px 5px #888888;}
+.view4proinfo p{font-size:28px; font-weight:normal; font-family:Verdana;color:#444444; margin-bottom:0; margin-top:0; }
+.inputinfo textarea{height:100px; margin-bottom:23px;}
+.view4contentblock{padding-left:22px; padding-right:25px;}
+.view4contentblock h2{padding-top:0px; margin-top:20px; margin-bottom:12px;}
+.view4contentblock p{font-size:28px; font-family: verdana; line-height:35px; color:#444444;  margin-bottom: 6px; margin-top:0;}
+.viewcontent4{ margin:0  auto;background:url("../images/backbg.png");padding-left: 16px;padding-right: 14px;}
+.uploadblock{padding-bottom:10px; padding-top:6px;}
+.uploadbtn{padding-left:11px;}
+.btnblock{margin-top:22px;}
+.btnblock .ui-btn-text{color:#fff; font-size:26px;}
+.treatbtn { box-shadow: none;background:#4BBDEC !important; border:none;border-radius:3px 3px 3px 3px !important; width:96%; margin-left:0 !important; margin-right:0 !important;}
+.paybtn{ box-shadow: none;background:#4BBDEC !important;border:none;border-radius:3px 3px 3px 3px !important;width: 99%; margin-left:0 !important; margin-right:0 !important;}
+.btnblock .ui-btn-inner{border-radius:0 0 0 0;padding-top: 7px;padding-left: 0; padding-right: 0; }
+.payblock{padding-left:10px;}
+.greetinfo ul li{display:inline-block; text-decoration:none; list-style-type:none;}
+.greetinfo ul li.love{/*background-image: url("../images/love.png"); background-repeat: no-repeat;*/ height:58px; width:27%; padding:0; }
+.greetinfo ul li.congratulation{/*background-image: url("../images/congratulation.png"); background-repeat: no-repeat;*/ height:58px; width:29%;padding:0; }
+.greetinfo ul li.birthday{/*background-image: url("../images/birthday.png"); background-repeat: no-repeat;*/ height:58px;width:24%; padding:0;}
+.greetinfo ul li.meetup{/*background-image: url("../images/meetup.png"); background-repeat: no-repeat;*/ height:58px;margin-left: 14px;width: 15%;padding:0; }
+/*Ends here*/
+
+
+
+/*View5.html*/
+.viewcontent5{ margin:0  auto;background:url("../images/backbg.png"); padding-left: 8px;padding-right: 21px;}
+.view5problockone{padding-left:22px; padding-right:21px; padding-top:47px;}
+.view5problock{padding-left:22px; padding-right:21px; padding-top:21px;}
+.view5proimg{width:23.5% !important; padding-left:6px;}
+.view5protxt{width:32% !important; }
+.view5video{width:35.5% !important;}
+.view5editicon{ padding-left: 11px;    width: 9% !important;}
+.view5proimg img{ box-shadow:0 2px 5px #888888;}
+.view5protxt p{font-size:17px; font-weight:normal; font-family:Verdana;color:#444444; margin-bottom:0; margin-top:0; }
+.totalblock{padding-top:10px; border-bottom:2px dashed #999999; padding-bottom:17px;margin-left: 22px; margin-right: 25px;}
+.totaltxt{ padding-left: 6px;width: 26.5% !important;}
+.totaltxt p{font-size:28px; font-weight:normal; font-family:Verdana;color:#444444; margin-bottom:0; margin-top:0; }
+.totaltxt .price{color:#4bbdec;font-size:28px; font-weight:normal; font-family:Verdana; padding-left:23px;}
+.term{color:#4bbdec;}
+.view5contentblock{padding-left:22px; padding-right:25px;}
+.view5contentblock h2{padding-top:0px; margin-top:16px; margin-bottom:12px;}
+.paytypeblock .ui-btn-inner{ text-align:left;}
+
+.bankkortbtn{ box-shadow: none;background:#fff !important; border:2px solid #dddddd;border-radius:6px 6px 6px 6px !important; width:100%; margin-left:0 !important; margin-right:0 !important;margin-top: 0; margin-bottom:12px;}
+.bankkortbtn .ui-btn-inner{background-image: url("../images/master.png"), url("../images/visa.png"), url("../images/plus.png");background-repeat: no-repeat;background-position: 33% center, 40.5% center,99% center;padding-bottom: 8px;padding-top: 8px;}
+
+.smsbtn{box-shadow: none;background:#fff !important; border:2px solid #dddddd;border-radius:6px 6px 3px 6px !important; width:100%; margin-left:0 !important; margin-right:0 !important;margin-top: 0; margin-bottom:12px;}
+.smsbtn .ui-btn-inner{background-image: url("../images/sms.png"),url("../images/plus.png");background-repeat: no-repeat;background-position: 21% center,99% center;padding-bottom: 8px;padding-top: 8px;}
+
+.wywalletbtn{box-shadow: none;background:#fff !important; border:2px solid #dddddd;border-radius:6px 6px 6px 6px !important; width:100%; margin-left:0 !important; margin-right:0 !important;margin-top: 0; margin-bottom:12px;}
+.wywalletbtn .ui-btn-inner{background-image: url("../images/wallet.png"), url("../images/plus.png");background-repeat: no-repeat;background-position: 34% center,99% center;padding-bottom: 8px;padding-top: 8px;}
+
+.paypalbtn{box-shadow: none;background:#fff !important; border:2px solid #dddddd;border-radius:6px 6px 6px 6px !important; width:100%; margin-left:0 !important; margin-right:0 !important;margin-top: 0; margin-bottom:12px;}
+.paypalbtn .ui-btn-inner{background-image: url("../images/paypal.png"), url("../images/plus.png");background-repeat: no-repeat;background-position: 27.5% center,99% center;padding-bottom: 8px;padding-top: 8px;}
+
+.paytypeblock .ui-checkbox{margin-top:0;}
+.paydeliveryblock .ui-btn-text {font-size:18px;}
+.paydeliveryblock{margin-top:30px;}
+.paydeliveryblock .ui-btn-text{color:#fff; font-size:26px;}
+.paydeliverybtn { box-shadow: none;background:#a3ca51 !important; border:none;border-radius:3px 3px 3px 3px !important; width:100%; margin-left:0 !important; margin-right:0 !important;}
+/*Ends here*/
+
+
+
+
+/*Footer CSS*/
+.footerinfo{line-height:49px;font-size: 28px;margin-bottom: 10px !important;margin-top: 0 !important;padding-top: 0 !important; text-align:center;}
+.footerinfo h3{margin-top:0 !important; margin-bottom:0 !important;top: 3px;text-align:left; position:relative;}
+.footerblock{}
+.footerleft{width:1% !important;}
+.footerright{width:55% !important;}
+/*Ends here*/
+
+/*View6.html*/
+
+.type_thankyou{background-image:url('../images/background-repeat.png');}
+.content_lastview{padding:0px !important;}
+.treat_text{text-align:center;padding:50px 132px;font-family:Verdana;font-size:28px;color:#444444;}
+.tack_text{text-align:center;font-family:Verdana;font-size:28px;color:#444444;padding:0px 75px 152px 75px;}
+.ribbon_text{background-image:url('../images/white_background.png');text-align:center;}
+.ribbon{padding:100px 0px 0px 0px;}
+.facebook_banner{background-image:url('../images/backbg.png');margin-top:-27px;text-align:center;}
+/*View6.html Ends here*/
+
+@media only screen and (max-width: 770px)
+{
+   .tack_text{padding:0px 75px 116px 75px;}
+}
+
+@media only screen and (max-width: 639px) 
+{
+    .ui-footer .ui-block-b .ui-btn-inner { background-image:none; }
+    .ui-footer .ui-block-c .ui-btn-inner { background-image:none;}
+    .productinfo{width:72.5% !important; padding-left:28px;}
+    .topnav .ui-btn-text{ font-size:15px !important;}
+    .view4contentblock p{font-size:26px !important;}
+    .greetinfo ul li.meetup{margin-left:10px;}
+  
+}
+
+@media only screen and (max-width: 585px) 
+{
+   .treat_text{padding:46px 130px;}   
+    }
+@media only screen and (max-width: 480px) 
+{
+    .backbutton.ui-btn-left {  top:37%; }
+    .menubutton.ui-btn-right {  top:47%;  font-size:18px;}
+    .ui-navbar .ui-btn-text{ font-size:15px !important;}
+    .ui-select .ui-btn-text { font-size:21px; text-align: left;}
+     h2 {  font-size:23px;}
+     h3,h3.treattext{ font-size:21px;}
+    .textbg { font-size:12px; }
+    .ui-navbar .ui-btn-inner { padding-left:12px !important; padding-right:11px !important;}
+    .ui-grid-c > *:nth-child(n) { width:auto !important;}
+    .ui-footer .ui-btn-text { font-size:12px;}
+    .ui-navbar li .ui-btn .ui-btn-inner { padding-bottom: 0.5em; padding-top: 0.5em;}
+    .ui-select .ui-icon { background-image: url(../images/rightarrow480.png); top:40% !important;}
+    
+    
+    /*Views2.html Starts here*/
+    .whitebg{margin-top:10px;} 
+    .leftblock {padding-left: 42px;width: 31% !important;}
+    .rightblock {padding-left: 46px; padding-right: 12px;width: 69% !important;}
+    .rightblock h2 {font-size: 22px;font-weight: bold;line-height: 26px;margin-bottom: 0px;margin-top: 34px;}
+    .rightblock p {font-size: 18px;line-height: 23px;margin-top: 0px;}
+    h2.price {line-height: 11px;margin-bottom: 15px; margin-top: 0;}  
+    .rightblock .ui-btn-text {font-size: 21px;font-weight: normal;}
+    .rightblock .submitblock {margin-top: 32px;}
+    .rightblock .ui-btn-up-c{/*background:none;*/ border:none; height:36px;}
+    .rightblock .ui-btn:hover{/*background:none;*/border:none; height:36px;}
+    .submitbtn {background: none repeat scroll 0 0 #4BBDEC;border: medium none;border-radius: 3px 3px 3px 3px !important;box-shadow: none;height: 40px;  margin-left: 0 !important; width: 100%;}    
+    .submitbtn .ui-btn-inner {padding:8px 0 0 2px !important;}
+    .submitbtn:hover{background:#4BBDEC !important; border:none; border-radius: 3px 3px 3px 3px !important;  box-shadow:none; height:40px !important;}
+    .submitbtn .ui-btn-text{font-size:19px;}
+    .logoblocks{padding-top:22px; padding-left:12px; padding-right:12px;}
+    .leftlogoblk{width:39% !important;}
+    .rightlogoblk{margin-left:13px;width:40% !important;}
+    .lastlogoblk{width:18% !important;}
+    .rightblock .ui-checkbox input{  left: 22px;   margin-left: -18px !important;    margin-top: -9px;}
+    /*Ends here*/
+    
+    
+    /*View3.html Starts here*/
+    .topnav .ui-btn-text{ font-size:15px !important;}
+    .topnav{ padding-top:23px; padding-left:13px; padding-right:12px;}
+    .productblock{padding-left:14px; padding-top:35px;}    
+    .productinfo{padding-left:20px;}
+    .productinfo p{font-size:21px;}
+    .productimg{width:21.5%; padding-left:0;}
+    .contentblock{padding-left:18px; padding-right:11px;}
+    .contentblock h2{margin-bottom:6px; margin-top:10px;}
+    .contentblock p{font-size:21px; line-height:25px;}
+    .inputinfo input.ui-input-text{font-size: 21px;height: 37px; margin-bottom: 19px;margin-top: 10px;}
+    .inputinfo .ui-btn-text{font-size:21px;}
+    .inputinfo .ui-checkbox{margin-top:0; margin-bottom:11px;}
+    .inputinfo .ui-btn-inner{ padding-bottom: 3px;padding-top: 2px;}     
+    .progressbtn {background: none repeat scroll 0 0 #4BBDEC;border: medium none;border-radius: 3px 3px 3px 3px !important;box-shadow: none;height: 40px;  margin-left: 0 !important; width: 100%;}    
+    .progressbtn .ui-btn-inner {padding:8px 0 0 2px !important;}
+    .progressbtn:hover{background:#4BBDEC !important; border:none; border-radius: 3px 3px 3px 3px !important;  box-shadow:none; height:40px !important;}
+    .progressbtn .ui-btn-text{font-size:19px;}
+    /*Ends here*/
+    
+    
+    /*View4.html CSS starts here*/   
+   
+    .topnav{padding-top:24px;}
+    .view4problock{padding-top:34px; padding-left: 12px;padding-top: 21px; padding-right: 11px;}
+    .view4proimg{ width:20.5% !important;}
+    .view4proinfo{padding-left:14px;}
+    .view4proinfo p{font-size:21px;}
+    .view4contentblock{ padding-left: 11px;padding-right: 15px;}
+    .view4contentblock h2{font-size: 22px;font-weight: bold; line-height: 26px;margin-bottom: 5px; margin-top: 8px;}
+    .view4contentblock p{font-size: 21px !important;line-height: 24px;}
+    .inputinfo textarea {height: 50px;margin-bottom: 9px; margin-top:12px;}
+    .inputinfo .ui-checkbox{ margin-bottom: 5px; margin-top: 11px;}
+    .uploadblock{padding-top: 0; padding-bottom:0;}
+    .uploadbtn {padding-left: 12px;}
+    .btnblock {margin-top: 8px;}
+    .treatbtn .ui-btn-inner {padding-bottom: 8px !important;padding-left: 0;padding-right: 0;padding-top: 8px !important;}
+    .paybtn .ui-btn-inner {padding-bottom: 8px !important;padding-left: 0;padding-right: 0;padding-top: 8px !important;}
+    .payblock {padding-left: 6px;}
+    .greetinfo{padding-top:5px;}
+    .greetinfo ul {margin-top: 0px;padding-left: 29px; margin-bottom:0;}
+    .greetinfo ul li.love {/*background-size: 43% auto;*/height: 38px;width: 11%;}
+    .greetinfo ul li.congratulation {/*background-size: 40% auto;*/height: 38px;width: 11%; padding-left: 61px;}
+    .greetinfo ul li.birthday {/*background-size: 81% auto;*/height: 38px;width: 11%; padding-left:69px;}
+    .greetinfo ul li.meetup {/*background-size: 79% auto;*/height: 38px;margin-left: 60px;width: 11%;}
+    
+    /*Ends here*/
+
+    /*View5.html starts here*/
+    viewcontent5 .ui-navbar .ui-btn-inner {padding-left: 13px !important;padding-right: 13px !important;}
+    .view5problockone {padding-left: 14px;padding-right: 10px;padding-top: 37px;}
+    .view5problock {padding-left: 14px;padding-right: 10px;padding-top: 16px;} 
+    .view5proimg {width: 21% !important; padding-left:4px;}
+    .view5video {width: 35% !important;}
+    .view5protxt {padding-left: 10px;width: 33.5% !important;}
+    .view5protxt p {font-size: 13px;}
+    .totaltxt{padding-left:0;}
+    .totaltxt p {font-size: 20px;}
+    .totaltxt .price {font-size: 20px;padding-left: 20px;}
+    .view5contentblock { padding-left: 22px;  padding-right: 16px;}
+    .bankkortbtn .ui-btn-inner{background-position: 36% center, 44.5% 7px, 99% center;background-repeat: no-repeat;background-size: 7% auto, 7% auto, 6% auto; padding-bottom: 6px !important;padding-top: 6px !important;}
+    .smsbtn .ui-btn-inner{ background-position: 23% center, 99% center;background-size: 7% auto,6% auto; padding-bottom: 6px !important;padding-top: 6px !important;}
+    .wywalletbtn .ui-btn-inner{   background-position: 37% center, 99% center;background-size: 7% auto, 6% auto;padding-bottom: 6px !important;padding-top: 6px !important;}
+    .paypalbtn .ui-btn-inner{ background-position: 30.5% center, 99% center;background-size: 14% auto, 6% auto;padding-bottom: 6px !important;padding-top: 6px !important;}
+    
+    .paydeliverybtn .ui-btn-inner{padding-bottom: 6px !important;padding-top: 6px !important;}
+    .view5contentblock .ui-checkbox .ui-btn-text{font-size:18px !important;}
+    .totalblock {border-bottom: 2px dashed #999999;margin-left: 22px;margin-right: 25px;padding-bottom: 10px;padding-top: 3px;}
+    .view5contentblock h2 {margin-bottom: 12px;margin-top: 10px;padding-top: 0;}
+    /*Ends here*/
+
+
+    
+    /*View6.html starts here*/
+    .ribbon_text{background-size:cover;}
+    .ribbon{padding:76px 0px 0px 0px;}
+    .treat_text{padding:55px 50px;font-size:21px;}
+    .tack_text{font-size:21px;padding:0px 57px 93px 57px;}
+    .facebook_banner{margin-top:-15px;}
+    /*Ends here*/
+    
+    /*Footer CSS*/
+    .footerblock{height:45px;}
+    .footerleft{width:2% !important;}
+    .footerright{width:50% !important;}
+    .footerinfo{margin-left:10px !important;}
+    .footerinfo h3{top:-3px !important;} 
+    /*Ends here*/
+    
+}
+@media only screen and (max-width: 320px) 
+{
+    .content { padding: 0px 10px 5px;}
+    .backbutton.ui-btn-left {  top:44%; }
+    .menubutton.ui-btn-right {  top:49%;  font-size:12px;}
+    .backbutton img { width:50%;}
+    .backbutton img:after { clear: both;}
+    .ui-navbar .ui-btn-text{ font-size:11px !important;}
+    .ui-select .ui-btn-text { font-size:14px; text-align: left;}
+     h2 {  font-size:15px; margin:5px 0 0;}
+     h3,h3.treattext { font-size:14px; margin:8px 0;}
+    .textbg { font-size:8px; width: 100%;  text-decoration:none; }
+    .ui-navbar .ui-btn-inner { padding-left:6px !important; padding-right:6px !important;}
+    .ui-grid-c > *:nth-child(n) { width:auto !important;}
+    .ui-footer .ui-btn-text { font-size:9px;}
+    .ui-footer .ui-btn-inner {padding-left:5px !important; padding-right:5px !important; padding-top:2px;}
+    .ui-header .ui-title { margin: 0.3em 30% 0.2em }
+    .ui-navbar li .ui-btn .ui-btn-inner { padding-bottom: 0.3em; padding-top: 0.2em;}
+    h3 { margin-bottom:0px; margin-top:0px;}
+    .ui-select .ui-btn-inner { padding:0.3em 20px 0.3em 10px;}
+    .ui-select .ui-icon { background-image: url(../images/rightarrow320.png); top:50% !important;}
+    .ui-select .ui-btn-icon-right .ui-icon {right:4px;}
+    .ui-btn-corner-all {  border-radius: 0.8em; -webkit-border-radius: 0.8em; -moz-border-radius: 0.8em; }
+    .products img {-moz-box-shadow: 0 0px 2px #9d9d9d !important;-webkit-box-shadow: 0 0px 2px #9d9d9d !important;box-shadow: 0 0px 2px #9d9d9d !important;}
+     
+     
+     /*Views2.html Starts here*/
+    .ui-content{padding: 15px 8px;}
+    .whitebg{margin-top:10px;} 
+    .leftblock {padding-left: 33px;    width: 32.5% !important; padding-top:4px;}
+    .rightblock { padding-left: 30px;padding-right: 10px;width: 67% !important;}
+    .rightblock h2 {font-size: 13px;font-weight: bold;line-height: 13px;margin-bottom: 4px;margin-top: 26px;}
+    .rightblock p {font-size: 11px;line-height: 15px;margin-top: 0; margin-bottom:11px;}
+    h2.price {line-height: 11px;margin-bottom: 10px; margin-top: 0;}  
+    .rightblock .ui-btn-text {font-size: 12px;font-weight: normal;}
+    .rightblock .submitblock {margin-top: 26px;}
+    .rightblock .ui-btn-up-c{/*background:none;*/ border:none; height:22px;}
+    .rightblock .ui-btn:hover{/*background:none;*/ border:none; height:22px;}      
+    .rightblock .ui-btn-inner {font-size: 7px;height: 16px;padding: 3px 0 0 40px !important;text-align: left;}
+    .submitbtn {background: none repeat scroll 0 0 #4BBDEC;border: medium none;border-radius: 3px 3px 3px 3px !important;box-shadow: none;height: 25px;  margin-left: 0 !important; width: 103%;}
+    .submitbtn .ui-btn-inner {padding: 4px 0 0 35px !important;}
+    .submitbtn:hover{background:#4BBDEC !important; border:none; border-radius: 3px 3px 3px 3px !important;height: 25px !important;   box-shadow:none;}
+    .submitbtn .ui-btn-text{font-size:14px;}
+    .logoblocks{padding-top:22px; padding-left:6px; padding-right:6px; }
+    .leftlogoblk{ width:42%;}
+    .rightlogoblk{margin-left:7px;}
+    .lastlogoblk{width:16% !important;}
+    .rightblock .ui-checkbox input{margin-top:-8px !important;left:21px;}
+    /*Ends here*/
+    
+    
+    /*View3.html starts here*/   
+    .topnav {padding-left: 8px;padding-right: 2px;padding-top: 10px;}
+    .topnav .ui-btn-text{ font-size:11px !important;}
+    .productblock{padding-top: 25px;}
+    .productimg{width: 21.5% !important;}  
+    .productinfo {padding-left: 15px;}  
+    .productinfo p {font-size: 14px;}
+    .contentblock { padding-left: 13px; padding-right: 11px;}
+    .contentblock h2{margin-top: 6px;}
+    .contentblock p{font-size:14px; line-height:19px;}    
+    .inputinfo input.ui-input-text{ font-size: 14px;height: 25px;margin-bottom: 12px;margin-top: 3px;}
+    .inputinfo .ui-btn-text {font-size: 14px;}
+    .inputinfo label {font-size:24px;}
+    .inputinfo .ui-btn-inner {padding-bottom: 2px;padding-top: 2px;}
+    .inputinfo .ui-checkbox {margin-bottom: 0;margin-top: 0;}
+    .progressblock{margin-top: 0;}
+    .progressbtn {margin-top: 0;background: none repeat scroll 0 0 #4BBDEC;border: medium none;border-radius: 3px 3px 3px 3px !important;box-shadow: none;height: 25px;  margin-left: 0 !important; width: 100%;}
+    .progressbtn .ui-btn-inner {padding: 1px 0 0 !important;}
+    .progressbtn:hover{background:#4BBDEC !important; border:none; border-radius: 3px 3px 3px 3px !important;height: 25px !important;   box-shadow:none;}
+    .progressbtn .ui-btn-text{font-size:14px;}
+    
+    /*Ends here*/
+    
+    /*View4.html starts here*/
+    
+   .topnav{padding-top:12px;}
+    .view4problock{padding-top:34px; padding-left: 12px;padding-top: 21px; padding-right: 11px;}
+    .view4proimg{ width:21.5% !important; padding-left:0 !important;}
+    .view4proinfo{padding-left:14px;}
+    .view4proinfo p{font-size:14px;}
+    .view4contentblock{ padding-left: 11px;padding-right: 15px;}
+    .view4contentblock h2{font-size: 22px;font-weight: bold; line-height: 26px;margin-bottom: 0; margin-top: 8px;}
+    .view4contentblock p{font-size: 14px !important;line-height: 24px;}
+    .inputinfo textarea {height: 50px;margin-bottom: 9px; margin-top:7px;}
+    .inputinfo .ui-checkbox{ margin-bottom: 5px; margin-top: 11px;}
+    .uploadblock{padding-top: 0; padding-bottom:0;}
+    .uploadbtn {padding-left: 12px;}
+    .btnblock {margin-top: 8px;}
+    .treatbtn .ui-btn-inner {padding-bottom: 8px !important;padding-left: 0;padding-right: 0;padding-top: 8px !important;}
+    .paybtn .ui-btn-inner {padding-bottom: 8px !important;padding-left: 0;padding-right: 0;padding-top: 8px !important;}
+    .payblock {padding-left: 6px;}
+    .greetinfo ul {margin-top: 0px;padding-left: 18px; margin-bottom:0;}
+    .greetinfo ul li.love {/*background-size: 43% auto;*/height: 30px;width: 11%;}
+    .greetinfo ul li.congratulation {/*background-size: 40% auto;*/height: 30px;width: 11%; padding-left: 38px;}
+    .greetinfo ul li.birthday {/*background-size: 81% auto;*/height: 30px;width: 11%; padding-left:45px;}
+    .greetinfo ul li.meetup {/*background-size: 79% auto;*/height: 30px;margin-left: 40px;width: 11%;}
+    
+    /*Ends here*/
+    
+    
+    /*View5.html starts here*/
+    .viewcontent5 .ui-navbar .ui-btn-inner {padding-left: 6px !important;padding-right: 6px !important;}
+    .view5problockone {padding-left: 6px;padding-right: 6px;padding-top: 25px;}
+    .view5protxt p {font-size: 11px;}
+    .view5problock {padding-left: 6px;padding-right: 6px; padding-top:8px;}
+    .totalblock {margin-left: 10px;margin-right: 14px;padding-bottom: 6px;padding-top: 3px;}
+    .totaltxt .price {font-size: 14px;padding-left: 14px; vertical-align:top;}
+    .totaltxt p {font-size: 14px;}
+    .view5contentblock h2 {margin-bottom: 8px; margin-top: 5px;   padding-top: 0;}
+    .bankkortbtn .ui-btn-inner{ padding-bottom: 2px !important; padding-top: 2px !important;  background-position: 36% center, 44.5% 4px, 99% center;padding-left: 12px;background-size: 7% auto, 7% auto, 5% auto;}
+    .smsbtn .ui-btn-inner{padding-bottom: 2px !important; padding-top: 2px !important;padding-left: 12px;background-size: 7% auto, 5% auto; }
+    .wywalletbtn .ui-btn-inner{padding-bottom: 2px !important; padding-top: 2px !important;padding-left: 12px;background-size: 7% auto, 5% auto; }
+    .paypalbtn{margin-bottom:15px;}
+    .paydeliverybtn{margin-top: 5px;}
+    .btnblock {margin-top: 0;}
+    .paypalbtn .ui-btn-inner{padding-bottom: 2px !important; padding-top: 2px !important;padding-left: 12px;background-size: 15% auto, 5% auto; }
+    .paydeliverybtn .ui-btn-inner { padding-bottom: 4px !important; padding-top: 3px !important;}
+    .view5contentblock {padding-left: 10px; padding-right: 12px;}
+    .view5contentblock .ui-checkbox{ margin-top: 0 !important;}
+    .view5contentblock .ui-checkbox label{margin-top: 0 !important;}
+    .view5contentblock .ui-checkbox .ui-btn-text {font-size: 12px !important;}
+    /*Ends here*/
+    
+    
+    /*View6.html starts here*/
+     .ribbon_text{background-size:cover;}
+    .ribbon{padding:50px 0px 0px 0px;}
+    .treat_text{padding:25px 42px;font-size:18px;}
+    .tack_text{padding:0px 15px 67px 15px;font-size:18px;}
+     .facebook_banner{margin-top:-10px;}
+    /*Ends here*/
+    
+    /*Footer CSS*/
+    .footerblock{height:30px;}
+    .footerleft{width:2% !important;}
+    .footerright{width:50% !important;}
+    .footerinfo h3{  margin-bottom: 0 !important;margin-top: 0 !important;position: relative;text-align: left; top: -10px !important;}
+    .footerinfo{margin-left:5px !important;}
+    /*Ends here*/
+}
+
